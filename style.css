@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/bg-light.png');
+    background-image: url('./img/bg-light-blur.png');
     background-size: cover;
     /*background-repeat: no-repeat;*/
     font-family: Tahoma;
@@ -30,7 +30,6 @@ body {
 }
 
 /* Navbar */
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #cfcccc;
     overflow: hidden;
