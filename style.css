@@ -32,19 +32,21 @@ body {
 
 /* Navbar */
 .topnav {
-  background-color: #8bbdbe;;
+  background-color: #b65638;
   overflow: hidden;
   display: flex;
   font-size: 1.1em;
 }
 
 .topnav-title {
+    display: flex;
     padding: 1em;
+    color: #f5f5f5;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: black;
+  color: #f5f5f5;
   text-align: center;
   padding: 1em 1em;
   text-decoration: none;
@@ -53,7 +55,7 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #f5f5f5;
-  color: black;
+  color: #232323;
 }
 
 /* Add an active class to highlight the current page */
@@ -68,8 +70,8 @@ body {
 }
 
 #zen-logo {
-    width: 0.8em;
-    height: 0.8em;
+    width: 1.2em;
+    height: 1.2em;
     margin-right: 0.3em;
 }
 
@@ -91,6 +93,7 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    background-color: #b65638
   }
 
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
