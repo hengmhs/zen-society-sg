@@ -110,8 +110,11 @@ h4 {
 }
 
 @media (max-width: 1400px) {
+  body {
+    margin: 0;
+  }
   .main {
-    width: auto;
+    width: 100vw;
   }
 
   .topnav {
