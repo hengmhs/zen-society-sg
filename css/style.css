@@ -38,6 +38,20 @@ display: block;
   text-align: center;
 }
 
+.portraits-container {
+  gap: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.portrait img {
+  max-height: 20em;
+}
+
+.portrait {
+  text-align: center;
+}
+
 /* Navbar */
 .topnav {
   background-color: #b65638;
@@ -155,5 +169,9 @@ h4 {
     float: none;
     display: block;
     text-align: left;
+  }
+
+  .portraits-container {
+    flex-direction: column;
   }
 }
