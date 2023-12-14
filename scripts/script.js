@@ -1,6 +1,5 @@
 const createHeader = () => {
   const customHeader = document.getElementById("custom-header");
-  console.log("customHeader: ", customHeader);
   customHeader.innerHTML = `
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
