@@ -17,7 +17,7 @@ body {
 .main-content {
   background-color: #eae4de;
   /*padding for top right bottom left */
-  padding: 1em 1em 2em 1em;
+  padding: 1em 2em 2em 2em;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -207,5 +207,9 @@ h4 {
 
   .teacher-container {
     flex-direction: column;
+  }
+
+  .main-content {
+    padding: 1em 1em 2em 1em;
   }
 }
