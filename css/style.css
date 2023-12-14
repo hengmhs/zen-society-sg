@@ -1,7 +1,7 @@
 body {
   background-image: url("../img/bg-light-blur.png");
   background-size: fill;
-  font-family: Tahoma;
+  font-family: "Inter";
   background-repeat: repeat;
 }
 
@@ -27,7 +27,7 @@ body {
   background-color: #f5f5f5;
   text-align: center;
   padding-bottom: 1em;
-display: block;
+  display: block;
 }
 
 .page-header {
